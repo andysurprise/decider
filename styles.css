@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+  font-family: "Georgia", serif;
+  background: linear-gradient(to bottom, #2a5298, #1e3c72);
+  color: #fff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Game Container */
+#game-container {
+  background: rgba(255, 255, 255, 0.9);
+  color: #2a5298;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 400px;
+}
+
+/* Title and Description */
+h1 {
+  font-family: "Palatino Linotype", serif;
+  font-size: 2em;
+  color: #6a0dad;
+}
+
+#game-description {
+  font-style: italic;
+  margin: 10px 0 20px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* Story Text */
+#story-text {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+/* Choices Buttons */
+#choices button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #6a0dad;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#choices button:hover {
+  background: #4b0082;
+}
+
+/* Image Display */
+#image-display img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+/* Score and Timer */
+#score-timer {
+  margin-top: 20px;
+}
+
+#score-timer p {
+  margin: 5px;
+  font-weight: bold;
+  color: #6a0dad;
+}
